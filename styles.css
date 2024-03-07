@@ -1,0 +1,100 @@
+/* Body style */
+body, html { 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #141414; 
+    font-family: 'Press Start 2P', cursive; 
+    color: rgb(3, 135, 243); 
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+/* Board Style*/
+.board {
+    display: grid;
+    grid-template-columns: repeat(7, 80px);
+    grid-template-rows: repeat(6, 80px);
+    gap: 5px;
+    background-color: #3498db;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+/*Cell Style*/
+.cell {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Style color when you hover over a space*/
+.cell:hover {
+    background-color: #080700;
+}
+/*Style of teh reset button*/
+#reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #2ecc71;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#reset-button:hover {
+    background-color: #27ae60;
+}
+/*Style of the discs*/
+.disc {
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%; 
+    position: relative;
+}
+
+.red, .yellow {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .board {
+        max-width: 80%;
+    }
+
+    button {
+        font-size: 1.2rem;
+    }
+}
