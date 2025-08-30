@@ -16,7 +16,7 @@ One of my first ever creations, a classic Connect 4 game implemented in HTML, CS
 
 * **Responsive Design:** Adapts to different screen sizes for a better playing experience on various devices.
 
-## 🚀 How to Play
+## How to Play
 
 1.  **Objective:** Be the first player to get four of your discs in a row, either horizontally, vertically, or diagonally.
 
