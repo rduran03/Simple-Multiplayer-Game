@@ -2,7 +2,7 @@
 
 One of my first ever creations, a classic Connect 4 game implemented in HTML, CSS, and JavaScript, allowing players to compete against each other or challenge a basic AI.
 
-## ✨ Features
+## Features
 
 * **Two-Player Mode:** Play against a friend on the same board.
 
